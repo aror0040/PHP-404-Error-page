@@ -1,0 +1,67 @@
+body {
+    background-color: #000000;
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+}
+
+
+*{
+  text-align: justify;
+}
+
+
+body {
+    font-family: 'arial', sans-serif;
+    color: #FFF;
+    background-color: #000000;
+  
+}
+
+p {
+    color: #ffffff;
+}
+h1,h2,h3,h4,h5,h6{
+  text-align: justify;
+  font-family: 'arial', sans-serif;
+  color: #ffffff;
+}
+
+body p{
+  font-family: 'arial', sans-serif;
+  color:#fff;
+  font-size: 1.2em;
+}
+
+/* Landscape phone to portrait tablet */
+@media only screen and (min-width: 30em) { 
+	.wrapper {
+		width: 30em;
+	}
+}
+
+/* Portrait tablet to landscape narrow desktop */
+@media only screen and (min-width: 48em) { 
+	.wrapper {
+		width: 48em;
+	}
+}
+
+/* Standard Desktop */ 
+@media only screen and (min-width: 60em) {
+	.wrapper {
+		width: 60em;
+	}
+}
+
+/* Widescreen Desktop */
+@media only screen and (min-width: 72.5em) { 
+	.wrapper {
+		width: 72.5em;
+	}
+}
+
+
+
